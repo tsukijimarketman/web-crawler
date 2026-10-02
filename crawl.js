@@ -6,7 +6,7 @@ function normalizeURL(urlString){
         urlObj = urlObj.slice(0, -1);
     }
 
-    return urlObj.toLowerCase();
+    return urlObj;
 }
 
 module.exports = {
